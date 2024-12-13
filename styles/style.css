@@ -172,9 +172,9 @@
   height: 100%;
   padding: 51px 40px 48px;
   color: #fff;
-  background-repeat: no-repeat; 
-  background-position: center; 
   background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
 }
 
 .card_film {
