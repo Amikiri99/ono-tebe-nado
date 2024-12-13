@@ -17,7 +17,7 @@
   list-style: circle;
 }
 
-.list_active{
+.list_active {
   text-decoration: none;
 }
 
@@ -25,9 +25,8 @@
   border-bottom: none;
 }
 
-.list_item_no_bullet{
+.list_item_no_bullet {
   list-style: none;
-  
 }
 
 .list_link_nav {
@@ -175,13 +174,11 @@
   color: #fff;
   background-repeat: no-repeat; 
   background-position: center; 
-  background-size: cover; 
-  position: relative; 
+  background-size: cover;
 }
 
 .card_film {
   background: url("../images/card-lot-01.jpg");
- 
 }
 
 .card_book {
@@ -272,7 +269,7 @@
   flex-direction: column;
   align-items: center;
   list-style: none;
-  padding-left: 21px;
+  padding-left: 20px;
 }
 
 .footer_menu_link {
