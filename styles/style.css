@@ -3,24 +3,36 @@
   grid-template-columns: 1fr 148px 1fr;
   padding: 92px 50px;
   font-size: 18px;
-  margin-bottom: 4px;
 }
+
 .nav {
   margin: auto 0;
+  display: flex;
+  gap: 20px;
 }
-.list {
+
+.list_header {
   display: flex;
   gap: 30px;
   list-style: circle;
-  padding-left: 1px;
-  padding-top: 4px;
 }
-.list_1 {
+
+.list_active{
+  text-decoration: none;
+}
+
+.list_link {
+  border-bottom: none;
+}
+
+.list_item_no_bullet{
   list-style: none;
+  
 }
-.list_2 {
-  text-decoration: underline;
-  padding-left: 2px;
+
+.list_link_nav {
+  letter-spacing: 0.22px;
+  text-underline-position: under;
 }
 
 .logo_black {
@@ -28,30 +40,27 @@
   width: 148px;
   padding-right: 1px;
 }
-.menu {
-  display: flex;
-  gap: 20px;
-}
+
 .address {
-  padding-bottom: 90px;
   padding-right: 16px;
   justify-self: end;
   align-self: center;
-  width: 237px;
-  height: 49px;
+  max-width: 237px;
   font-style: normal;
   line-height: 24.3px;
   letter-spacing: 0.22px;
   text-underline-position: under;
 }
+
 .cover {
   position: relative;
   background: url(../images/cover.jpg);
-  height: 757px;
+  min-height: 757px;
   background-repeat: no-repeat;
   background-position: center;
   background-size: cover;
 }
+
 .overlay {
   position: absolute;
   background-color: rgb(0 0 0 / 0.6);
@@ -71,6 +80,7 @@
 .aligned_text {
   display: block;
 }
+
 .aligned_text_center {
   display: block;
   position: relative;
@@ -82,6 +92,7 @@
   position: relative;
   text-align: end;
 }
+
 .aligned_text_root {
   padding-top: 10px;
   line-height: 110px;
@@ -94,6 +105,7 @@
 .letter_spacing_distance_o {
   letter-spacing: 0;
 }
+
 .cover_description {
   display: flex;
   position: relative;
@@ -161,30 +173,25 @@
   height: 100%;
   padding: 51px 40px 48px;
   color: #fff;
+  background-repeat: no-repeat; 
+  background-position: center; 
+  background-size: cover; 
+  position: relative; 
 }
 
 .card_film {
   background: url("../images/card-lot-01.jpg");
-  background-repeat: no-repeat;
-  background-position: center;
-  background-size: cover;
-  position: relative;
+ 
 }
 
 .card_book {
   background: url("../images/card-lot-02.jpg");
-  background-repeat: no-repeat;
-  background-position: center;
-  background-size: cover;
-  position: relative;
+  
 }
 
 .card_picture {
   background: url("../images/card-lot-03.jpg");
-  background-repeat: no-repeat;
-  background-position: center;
-  background-size: cover;
-  position: relative;
+ 
 }
 
 .card_title {
@@ -252,6 +259,7 @@
   line-height: 24px;
   letter-spacing: 0.08px;
 }
+
 .footer {
   display: flex;
   justify-content: space-between;
@@ -264,6 +272,7 @@
   flex-direction: column;
   align-items: center;
   list-style: none;
+  padding-left: 21px;
 }
 
 .footer_menu_link {
